@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Shopping Cart</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="js/store.js" async></script>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <!--  Item row-->
+        <div class="flexContainer">
+
+            <!--  Item -->
+            <div class="shop-item">
+                <img class="shop-item-image" src="Images/2.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-title">Nitro Board Yellow</span>
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <!--  Item -->
+
+            <!--  Item -->
+            <div class="shop-item">
+                <img class="shop-item-image" src="Images/3.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-title">Nitro Board Pink</span>
+                    <span class="shop-item-price">$29.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <!--  Item -->
+
+            <!--  Item -->
+            <div class="shop-item">
+                <img class="shop-item-image" src="Images/1.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-title">Nitro Board Red</span>
+                    <span class="shop-item-price">$39.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <!--  Item -->
+
+
+        </div>
+        <!--  Item row-->
+
+        <!--  Item row-->
+        <div class="flexContainer">
+
+                <!--  Item -->
+                <div class="shop-item">
+                    <img class="shop-item-image" src="Images/6.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-title">Nitro Board Tattoo</span>
+                        <span class="shop-item-price">$24.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <!--  Item -->
+    
+                <!--  Item -->
+                <div class="shop-item">
+                    <img class="shop-item-image" src="Images/7.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-title">Nitro Board Future</span>
+                        <span class="shop-item-price">$27.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <!--  Item -->
+    
+                <!--  Item -->
+                <div class="shop-item">
+                    <img class="shop-item-image" src="Images/8.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-title">Nitro Board Grunge</span>
+                        <span class="shop-item-price">$35.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <!--  Item -->
+    
+    
+            </div>
+            <!--  Item row-->
+
+    </section>
+
+
+    <section class="container content-section">
+        <h2 class="section-header">Shopping cart</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Item</span>
+            <span class="cart-price cart-header cart-column">Price</span>
+            <span class="cart-quantity cart-header cart-column">Quantity</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">Checkout</button>
+    </section>
+
+
+
+</body>
+
+</html>
